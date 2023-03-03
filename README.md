@@ -2,6 +2,8 @@
 
 Template base on vanilla js
 
+![Vite + aplinejs](./vite-alpinehs.png)
+
 ## Installation
 
 just clone it and
