@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Alpinejs App</title>
+  <script type="module" src="/src/index.js"></script>
+</head>
+
+<body>
+  <section id="app">
+    <a href="https://vitejs.dev" target="_blank">
+      <img src="/vite.svg" class="logo" alt="Vite logo" />
+    </a>
+    <p>+</p>
+    <a href="https://alpinejs.dev/" target="_blank">
+      <img src="https://alpinejs.dev/alpine_long.svg" class="logo alpine" alt="alpinejs logo" />
+    </a>
+    <h1>Hello Counter!</h1>
+    <!-- for this way change in index.js by uncomments some code -->
+    <!-- <div class="card" x-data="counter">
+      <button id="counter" @click="increment">
+        <span x-text="count"></span>
+      </button>
+    </div> -->
+    <!-- OR -->
+    <div class="card" x-data="{count:0}">
+      <button id="counter" @click="count++">
+        <span x-text="count"></span>
+      </button>
+    </div>
+    <p class="read-the-docs">
+      Click on the Vite logo or Alpinejs to learn more
+    </p>
+  </section>
+
+</body>
+
+</html>
