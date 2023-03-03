@@ -2,7 +2,7 @@
 
 Template base on vanilla js
 
-![Vite + aplinejs](./vite-alpinehs.png)
+![Vite + aplinejs](./vite-alpinejs.png)
 
 ## Installation
 
