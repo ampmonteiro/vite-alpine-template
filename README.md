@@ -13,6 +13,13 @@ npm i
 
 ```
 
+for start dev server:
+
+```bash
+npm start
+
+```
+
 ## more
 
 read the docs of [vitejs](http://vitejs.dev/) and [Alpinejs](https://alpinejs.dev/)
